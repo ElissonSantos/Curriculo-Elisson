@@ -1,0 +1,31 @@
+.header-container {
+  width: 100%;
+  max-width: 1180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 8vh;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.name:hover {
+  font-size: 9vh;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu p {
+  padding-right: 25px;
+  text-transform: uppercase;
+  color: #adacac;
+  font-size: large;
+  text-shadow: 2px 2px 4px #000000;
+}
